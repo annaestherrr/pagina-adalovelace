@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500&family=Playfair+Display:wght@900&family=Roboto:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+}
+
+header {
+    padding: 2rem;
+    background-color: rgb(204, 139, 139);
+    display: flex;
+    justify-content: center;
+}
+
+.inicio {
+    background-color: rgb(231, 225, 225);
+    padding: 2rem;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'Impact, fantasy';
+}
+
+.caixa-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagem-ada {
+    height: 20rem;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.caixa-p-intro {
+    text-align: center;
+}
+
+.ada-tecnologia {
+    padding: 2rem;
+    background-color: rgb(214, 194, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-tecnologia {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.imagem-ada-tecnologia {
+    margin-top: 1rem;
+    height: 14rem;
+    border: rgb(255, 247, 247) solid;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.curiosidades {
+    padding: 2rem;
+    background-color: rgb(231, 225, 225);
+    display: flex;
+    align-items: center;
+}
+
+.caixa-lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+ul {
+    padding: 1rem;
+    width: 70%;
+}
+
+li {
+    list-style-type: square;
+    padding: 1rem;
+    font-weight: bolder;
+}
+
+.legado {
+    background-color: rgb(214, 194, 194);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p-legado {
+    margin-top: 1rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.imagens-finais {
+    margin-top: 1rem;
+}
+
+.ultimas-img {
+    height: 10rem;
+}
+
+footer {
+    padding: 1rem;
+    background-color: rgb(231, 225, 225);
+}
+
+.caixa-footer {
+    width: 100%;
+}
+
+.p-footer {
+    font-size: 0.7rem;
+}
+
+@media(max-width: 480px) {
+    header {
+        padding: 1rem;
+    }
+    .inicio {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    h5 {
+        font-size: 1.5rem;
+    }
+    .imagem-ada {
+        height: 12rem;
+    }
+    .ada-tecnologia {
+        padding: 1rem;
+    }
+    .imagem-ada-tecnologia {
+        height: 6rem;
+    }
+    ul {
+        width: 100%;
+        padding: 1rem;
+    }
+    li {
+        padding: 0.5rem;
+    }
+    .importância {
+        padding: 1rem;
+    }
+    .p-footer {
+        font-size: 5px;
+    }
+}
